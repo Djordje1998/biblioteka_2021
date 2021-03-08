@@ -8,6 +8,7 @@ public class Biblioteka implements BibliotekaInterface {
 	//Privatna lista sa svim knjigama u bibliotec
 	private LinkedList<Knjiga> knjige = new LinkedList<>();
 	
+	//Nepotreban komentar 2
 	@Override
 	public void dodajKnjigu(Knjiga knjiga) {
 		if(knjiga==null) {
